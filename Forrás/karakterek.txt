@@ -1,0 +1,11 @@
+karakterek
+abcdefghijklmnopqrstuvwxyz
+
+szamok
+0123456789
+
+nagybetuk
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+specialis karakterek
+!@#$%^&*()_+[]{}|;:',.<>?
