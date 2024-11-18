@@ -7,5 +7,5 @@ Ez a repository a **Webfejlesztés II** tárgy forrásanyagait tartalmazza, amel
 A forrásanyagok letöltéséhez és használatához futtasd az alábbi parancsot a kívánt branchet letöltve:
 
 ```bash
-git clone -b git_ismetles https://github.com/vellt/web_12B_1csop_forrasok.git
+git clone -b topjoy https://github.com/vellt/web_12B_1csop_forrasok.git
 ```
