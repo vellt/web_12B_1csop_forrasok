@@ -1,0 +1,14 @@
+[navbar]
+https://getbootstrap.com/docs/5.3/examples/navbars/
+
+[carousel]
+https://getbootstrap.com/docs/5.3/examples/carousel/
+
+[fomrs/form control]
+https://getbootstrap.com/docs/5.3/forms/form-control/
+
+[footer]
+https://getbootstrap.com/docs/5.3/examples/footers/
+
+[ikonok]
+https://icons.getbootstrap.com/
