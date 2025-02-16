@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/Laboratoria/LIM011-data-lovers/master/src/data/potter/potter.json
+https://www.themealdb.com/api/json/v1/1/categories.php
