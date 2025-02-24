@@ -1,3 +1,17 @@
 https://picsum.photos/v2/list
 
 📷
+
+function getCookie(key) {
+    const cookie = document.cookie
+        .split("; ")
+        .find((row) => row.startsWith(`${key}=`));
+    return cookie ? cookie.split("=")[1] : null;
+}
+
+function setCookie(name, value, days) {
+    const date = new Date(); 
+    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+    const expires = `expires=${date.toUTCString()}`;
+    document.cookie = `${name}=${value};${expires};path=/`;
+}
