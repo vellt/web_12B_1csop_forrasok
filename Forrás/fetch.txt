@@ -1,1 +1,1 @@
-https://nodejs111.dszcbaross.edu.hu/api/bakery
+https://akabab.github.io/starwars-api/api/all.json
