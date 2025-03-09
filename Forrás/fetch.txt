@@ -1,1 +1,1 @@
-https://akabab.github.io/starwars-api/api/all.json
+https://nodejs111.dszcbaross.edu.hu/api/news
