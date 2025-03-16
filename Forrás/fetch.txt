@@ -1,1 +1,1 @@
-https://nodejs111.dszcbaross.edu.hu/api/news
+https://nodejs111.dszcbaross.edu.hu/api/nike
