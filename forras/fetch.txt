@@ -1,2 +1,0 @@
-GET/POST: https://nodejs112.dszcbaross.edu.hu/idezetek
-POST (nev, idezet)

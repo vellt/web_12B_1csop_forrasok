@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu" id="html" data-bs-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--bootstrap link helye-->
+    <!--bootstrap ikon link helye (a navbar miatt)-->
+    <!--animáció link helye-->
+    <title>Contact</title>
+  </head>
+  <body class="container">
+    <div id="header"></div>
+    <!--animáció hozzáadása-->
+    <div class="row  row-cols-1 row-cols-lg-2 ">
+      <div class="col ">
+        <div>
+          <img src="./public/contact-us.jpg" alt="" class="img-fluid" />
+        </div>
+      </div>
+      <div class="col">
+        <div class="my-2">
+          <div class="fw-bold fs-5">Contact Us</div>
+          <div class="text-muted my-3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac quam vitae arcu tincidunt vulputate eget ut ipsum. Nullam ut neque condimentum, pharetra eros a, congue tortor. Proin in velit eros. Aenean vehicula, mi ac egestas efficitur, elit ex fringilla velit, id imperdiet nisl elit eget enim. Nullam consequat dolor sit amet rhoncus lacinia. Aenean pulvinar ullamcorper ante. Etiam non lobortis ipsum. Cras metus nunc, lacinia non lobortis in, blandit id neque. Donec vestibulum porta orci non vestibulum. Phasellus porta sapien ut odio fermentum, quis pulvinar sem convallis. Morbi vitae lacinia nulla. Aenean eros nibh, ultricies sed augue nec, vulputate dictum orci. Nam et finibus mauris. Duis finibus ipsum nec orci pharetra, a blandit quam ultrices. Fusce sed consequat augue. 
+          </div>
+          <div>
+            <div class="row g-3">
+              <div class="col-md-4">
+                <input id="name" type="text" class="form-control" placeholder="Your Name *"/>
+              </div>
+              <div class="col-md-4">
+                <input id="email" type="email" class="form-control" placeholder="Your Email *"/>
+              </div>
+              <div class="col-md-4">
+                <input id="phone" type="tel" class="form-control" placeholder="Your Phone *"/>
+              </div>
+              <div class="col-12">
+                <textarea id="message" class="form-control" rows="10" placeholder="Your Message"></textarea>
+              </div>
+              <div class="col-12 text-end">
+                <button id="sendMessgeButton" class="btn btn-warning">Send Message</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <!--bootstrap js link helye-->
+    
+    <script>
+      (async () => {
+        // betöltseni a header-t és a footert
+      })();
+    </script>
+    <script src="./js/new_message.js"></script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+animáció: https://animate.style/
+bootstrap: https://getbootstrap.com/
+bootstrap ikon: https://icons.getbootstrap.com/
+bootstrap footers (2.): https://getbootstrap.com/docs/5.3/examples/footers/
+bootstrap navbar (containeres): https://getbootstrap.com/docs/5.3/examples/navbars/

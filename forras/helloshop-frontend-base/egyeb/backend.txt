@@ -1,0 +1,45 @@
+alap api cím: https://nodejs114.dszcbaross.edu.hu
+képek elérésélre példa: https://nodejs114.dszcbaross.edu.hu/uploads/1744478236701-01.png
+elérhető útvonalai:
+
+// USER REGISTRATION
+post: /api/register
+body: name, email, password
+
+// LOGIN
+post: /api/login
+body: email, password
+
+// termékek lekérése
+get: /api/products
+
+// Új termék feltöltése képpel, csak admin
+post: /api/products
+body: name, price, discount 
+
+// termék módosítása, képpel, csak admin
+put: /api/products/:id
+params: id
+body: name, price, discount
+     
+// termék törlése, csak admin
+delete: /api/products/:id
+params: id
+
+// MESSAGES
+post: /api/messages
+body: name, email, phone, message
+
+// REVIEWS
+get: /api/reviews
+
+post: /api/reviews
+body: name, stars, review
+
+// NEWSLETTERS
+post: /api/newsletters
+body: email 
+
+// ORDERS
+post: /api/orders
+body: product_id, quantity 

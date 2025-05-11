@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html id="html" lang="hu" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap link helye-->
+    <!--bootstrap ikon link helye (a navbar miatt)-->
+    <!--animáció link helye-->
+    <title>Home</title>
+</head>
+<body class="container ">
+    <!--ide töltjük be a header-t (navbart) -->
+    <div id="header" ></div>
+
+    <!--két kép animációval, lekerekítésekkel-->
+    
+    <!--animált input groupos keresősáv-->
+
+    <!--animált details, egyedi summary-val (szöveg + boostrap ikon)-->
+    <details>
+        
+        <summary> 
+            
+        </summary>
+        <!--szűrők-->
+    </details>
+
+    <!--termékek listázása, animációval-->
+    <div id="termekek-tarolo" class="row gy-4 row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5  row-cols-xxl-6">
+        <!--egy kártya kialakítása-->
+        <div class="col ">
+            <div>
+                <!--kártya tartalma-->
+            </div>
+        </div>
+    </div>
+
+    <!--animáció hozzáadása-->
+    <div class="fs-2 fw-bold  my-4 text-center ">Vásárlói vélemények</div>
+
+    <!--vélemények listázása, animációval-->
+    <div id="velemenyek-tarolo" class="row gy-4 row-cols-1 row-cols-lg-2">
+         <!--egy kártya kialakítása-->
+        <div class="col">
+            <div class="border rounded-4 p-4 h-100">
+                <!--kártya tartalma-->
+            </div>
+        </div>
+    </div>
+
+    <!--animáció hozzáadása-->
+    <div class="fs-2 fw-bold  my-4 text-center ">Vélemény küldése</div>
+
+    <!--vélemény elküldése, animáció hozzáadása-->
+    <div class="border rounded-4 p-4 bg-body-tertiary">
+        <div class="mb-3">
+            <label for="name" class="form-label">Név</label>
+            <input type="text" class="form-control" id="name" placeholder="Írd be a neved">
+        </div>
+
+        <div class="mb-3">
+            <label for="rating" class="form-label">Értékelés</label>
+                <select id="rating" class="form-select">
+                <option value="5">⭐⭐⭐⭐⭐</option>
+                <option value="4">⭐⭐⭐⭐ </option>
+                <option value="3">⭐⭐⭐ </option>
+                <option value="2">⭐⭐</option>A
+                <option value="1">⭐</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label for="message" class="form-label">Vélemény</label>
+            <textarea id="message" rows="4" class="form-control" placeholder="Írd le a tapasztalataidat..."></textarea>
+        </div>
+
+        <button id="send-review" class="btn btn-dark">Vélemény elküldése</button>
+    </div>
+    
+    <!--hírlevére felíratkozás, animáció hozzáaádása-->
+    <div class="bg-warning text-center py-5 my-5 ">
+        <div class="container">
+            <h2 class="fw-bold text-white mb-3">JOIN SHOPPING COMMUNITY TO<br>GET MONTHLY PROMO</h2>
+            <p class="text-white mb-4">Type your email down below and be young wild generation</p>
+          
+            <div class="d-flex justify-content-center">
+                <!--beviteli mező + gomb helye -->
+            </div>
+        </div>
+    </div>
+
+    <div id="footer"></div>
+      
+    <!--bootstrap js link helye-->
+
+    <script>
+        (async() => {
+            // betöltseni a header-t és a footert
+        })()
+    </script>
+</body>
+</html>
